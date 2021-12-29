@@ -1,0 +1,20 @@
+.context{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.5);
+    
+}
+.context1{
+    margin: 25px;
+}
+.title{
+    color: #6d6d6d;
+    font-weight: lighter;
+    padding-bottom: 20px ;
+}
+.p-style{
+    font-size: 17px;
+   text-align: justify;
+}
