@@ -21,9 +21,7 @@
     top: 0;
     position: fixed;
     z-index: 1;
-    overflow-x: auto;
 }
-
 .content{
     display: inline-block;
     margin-right: 60px;
@@ -58,14 +56,14 @@
     background-color: rgba(62, 66, 78, 0.7);
     border-radius: 5px;
 }
-.nav .navlink{
+.navMenu .navlink{
     color: ivory;
     font-weight: lighter;
     font-size: large;
     text-decoration: none;
     padding-right: 40px;
 }
-.nav:hover .navlink:hover{
+.navMenu:hover .navlink:hover{
     color: #61dafb;
 }
 
@@ -122,3 +120,34 @@
   .getStarted:hover {
     background-color: white;
   }
+  @media only screen and (max-width: 800px){
+      .content{
+          margin-right: 5px;
+      }
+      .reactName{
+          visibility: hidden;
+      }
+      .menus{
+          
+          overflow-x: scroll;
+          display: flex;
+          }
+          .navMenu{
+            padding-right: 5px;
+            overflow-x: auto;
+          }
+          .fa-search{
+              margin-right: 0px;
+          }
+         .search{
+             width: 100px;
+         }
+         .navMenu .navlink{
+             padding-right: 20px;
+         }
+         .navBar{
+             padding-left: 20px;
+             height: 60px;
+         }
+  }
+

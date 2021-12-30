@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import Logo from "./logo"
+import { renderToStaticMarkup } from "react-dom/server";
 import "./header.css";
 class Header extends Component {
   render() {
+    const svgString = encodeURIComponent(renderToStaticMarkup(<Logo/>));
     return (
       <div className="headerContent">
-        <header className="App-header ">
+        <header className="App-header" style={{backgroundImage: `url("data:image/svg+xml,${svgString}")`}}>
 
           <div className="top1">
             <h1 className="reactTitle">React</h1>

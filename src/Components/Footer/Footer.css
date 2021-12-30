@@ -56,3 +56,26 @@ footer{
     color: #61dafb;
 }
 
+@media only screen and (max-width: 600px) {
+    .footer-section2{
+        display:inline;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .facebook{
+        padding-left: 20px;
+        width: 100%;
+    }
+    .copyright{
+        padding-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .facebook{
+        padding-left: 20px;
+        width: 100%;
+    }
+    .copyright{
+        padding-left: 20px;
+    }
+  }

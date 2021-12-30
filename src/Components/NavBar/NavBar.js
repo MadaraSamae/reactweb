@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./navbar.css";
+import logo from "../../Assests/logo192.png"
 export class NavBar extends Component {
   render() {
     return (
@@ -10,7 +11,7 @@ export class NavBar extends Component {
               <ul className="nav">
                 <li className="nav-item">
                   <img
-                    src="./logo192.png"
+                    src={logo}
                     className="reactLogo"
                     alt="reactjslogo"
                   />
@@ -23,34 +24,34 @@ export class NavBar extends Component {
               </ul>
             </div>
 
-            <div className="content">
-              <ul className="nav">
-                <li className="nav-item">
+            <div className="content menus">
+              <div className="navMenu">
+              
                   <a className="navlink" href="https://reactjs.org/docs/getting-started.html">
                     Docs
                   </a>
-                </li>
-                <li className="nav-item">
+              
+              
                   <a className="navlink " href="#">
                     Tutorial
                   </a>
-                </li>
-                <li className="nav-item">
+              
+                
                   <a className="navlink" href="#">
                     Blog
                   </a>
-                </li>
-                <li className="nav-item">
+                
+                
                   <a className="navlink" href="#">
                     Community
                   </a>
-                </li>
-              </ul>
+                
+              </div>
             </div>
             <div className="content">
               <input className="search" type="search" placeholder="Search" />
             </div>
-            <div className="content">
+            <div className="content menus">
               <a className="right-link" href="">
                 v17.0.2
               </a>

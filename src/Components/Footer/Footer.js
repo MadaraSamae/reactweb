@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Footer.css";
-import facebook from "./facebook.png";
+import facebook from "../../Assests/facebook.png";
 export class Footer extends Component {
   render() {
     return (
