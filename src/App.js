@@ -1,17 +1,16 @@
-import logo from "./logo.svg";
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body/Body";
-import Footer from "./Components/Footer/Footer"
+import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/NavBar/NavBar";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <NavBar/>
-      <Header/>
-      <Body/>
-      <Footer/>
+      <NavBar />
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
