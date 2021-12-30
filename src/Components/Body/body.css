@@ -1,29 +1,41 @@
-.context{
-    margin: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid rgba(190, 190, 190, 0.5);
-    
+.context {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba(190, 190, 190, 0.5);
 }
-.context1{
-    margin: 25px;
+.context1 {
+  margin: 25px;
 }
-.title{
-    color: #6d6d6d;
-    font-weight: lighter;
-    padding-bottom: 20px ;
+.title {
+  color: #6d6d6d;
+  font-weight: lighter;
+  padding-bottom: 20px;
 }
-.p-style{
-    font-size: 17px;
-   text-align: justify;
+.p-style {
+  font-size: 17px;
+  text-align: justify;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.text-bold {
+  font-weight: bold;
+  font-size: large;
+}
+
+.text-heading {
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 @media only screen and (max-width: 600px) {
-    .context{
-        margin: auto;
-        flex-direction: column-reverse;
-        width: 100%;
-    }
+  .context {
+    margin: auto;
+    flex-direction: column-reverse;
+    width: 100%;
   }
-
+}

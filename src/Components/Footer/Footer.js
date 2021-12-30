@@ -39,7 +39,9 @@ export class Footer extends Component {
             <div>
               <div>
                 <img className="facebook" src={facebook} alt="source" />
-                <p class="copyright">Copyright © 2021 Meta Platforms, Inc.</p>
+                <p className="copyright">
+                  Copyright © 2021 Meta Platforms, Inc.
+                </p>
               </div>
             </div>
             <div className="footer-section2">
